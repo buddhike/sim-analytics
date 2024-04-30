@@ -23,7 +23,7 @@ echo "alias python=python3" >> /home/ec2-user/.bash_profile
 
 # kafka
 mkdir -p /usr/local/kafka
-curl -L -o /home/ec2-user/downloads/kafka.tgz https://downloads.apache.org/kafka/3.4.1/kafka_2.13-3.4.1.tgz
+curl -L -o /home/ec2-user/downloads/kafka.tgz https://downloads.apache.org/kafka/3.7.0/kafka_2.12-3.7.0.tgz
 tar -C /usr/local/kafka --strip-components=1 -xzf /home/ec2-user/downloads/kafka.tgz
 echo "export PATH=\$PATH:/usr/local/kafka/bin" >> /home/ec2-user/.bash_profile
 

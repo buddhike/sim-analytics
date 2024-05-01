@@ -35,7 +35,7 @@ Resources:
   S3CleanupFunction:
     Type: AWS::Lambda::Function
     Properties:
-      Runtime: python3.7
+      Runtime: python3.12
       Handler: index.handler
       Timeout: 900
       Role: !GetAtt S3CleanupRole.Arn
